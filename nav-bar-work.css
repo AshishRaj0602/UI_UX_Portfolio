@@ -1,0 +1,41 @@
+
+ .nav-bar-work {
+   display: grid;
+   grid-template-rows:56px;
+   grid-template-columns: 4fr auto auto auto;
+   column-gap:50px;
+   border-bottom: 1px solid grey;
+   background-color: white;
+   align-items: center;
+ }
+ .nav-bar-work {
+   font-size: 20px;
+   align-items: center;
+ }
+
+ #Logo
+ {
+    text-align: left;
+ } 
+
+a#Work-button{
+  color: #f28066;
+ 
+}
+a#about-button{
+  color: #000000;
+  text-decoration: none;
+}
+a#about-button:hover{
+  color: #f28066;
+  text-decoration: none;
+}
+a#contact-button{
+  color: #000000;
+  text-decoration: none;
+}
+a#contact-button:hover{
+  color: #f28066;
+  text-decoration: none;
+}
+

@@ -1,0 +1,40 @@
+
+.project-2 {
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(550px,1fr));
+  grid-template-rows: 1fr;
+  column-gap: 10px;
+  background-color: #FFEEE7;
+  align-items: center;
+  }
+  /* .project-2 {
+    padding: 30px 0px 30px 0px;
+    font-size: 30px;
+    text-align: left; 
+  } */
+  #image-2{
+    /* grid-area: 1/1/6/2; */
+    padding: 0;
+  } 
+  #text-part-2{
+    /* grid-area: 2/2/5/3; */
+    font-size: 30px;
+    }
+
+    #button4-2{
+      background-color:#FFEEE7;
+      border: 2px solid #F28066;
+      cursor: pointer;
+      font-size: 20px;
+      text-align:center;
+      color: #F28066;
+      height: 64px;
+      width: 200px;
+    }
+    #button4-2:hover{
+      background-color:#F28066;
+      color:rgb(255, 255, 255);
+    }
+   
+ 
+ 
